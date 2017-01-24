@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>Sh</name>
+	<version>1.0</version>
+	<creationDate>1/23/2017</creationDate>
+	<author>Poul Sh</author>
+	<authorEmail>quadrosh@gmail.com</authorEmail>
+	<copyright>Copyright (C) 2017 Deepclouds, Inc. All rights reserved.</copyright>
+	<description>3.0 upgrade for mobile support</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+        <position>sidebar_top</position>
+        <position>sidebar_middle</position>
+        <position>sidebar_bottom</position>
+        <position>content_top</position>
+        <position>content_main</position>
+        <position>footer</position>
+        <position>copy</position>
+        <position>debug</position>
+	</positions>
+
+	<config>
+
+	</config>
+</extension>
