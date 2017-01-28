@@ -1,0 +1,188 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline;}
+::selection {background:#2e2e31;color:#e7e7e7;}
+::-moz-selection {background:#2e2e31;color:#e7e7e7;}
+::-webkit-selection {background:#2e2e31;color:#e7e7e7;}
+html {width:100%;font-size:10px;line-height:10px;}
+body {overflow-x:hidden;width:100%;min-width:1000px;padding:0px;margin:0;cursor:context-menu;background:#2393a4;font-family:'Helvetica Neue',Arial,sans-serif;color:#fff;}
+ul, ol {margin:0;padding:0;} ul li {list-style:none;}
+strong, b {font-weight:800;}
+a {text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active, a:focus {outline:none;}
+img a {border:0;}
+sup {position:relative;top:-3px;}
+.clear {clear:both;margin:0;}
+:focus {outline:none;}
+.left {float:left;width:45%;overflow:hidden;}
+.right {float:right;width:45%;overflow:hidden;}
+.blink {
+	width:90%;
+	text-align:center;
+	font-size:1.6rem;
+	font-weight:800;
+	}
+	.blink a {display:block;padding:15px 0;border:3px solid #fff;color:#fff;text-decoration:none;}
+		.blink a:hover {background:#fff;color:#2393a4;}
+aside {
+	z-index:1;
+	position:fixed;
+	top:0;
+	left:0;
+	width:250px;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background:#fff;
+	color:#313131;
+	-webkit-box-shadow:5px 0px 10px 0px rgba(50,50,50,0.4);
+	-moz-box-shadow:5px 0px 10px 0px rgba(50,50,50,0.4);
+	box-shadow:5px 0px 10px 0px rgba(50,50,50,0.4);
+	}
+aside .logotipe {
+	margin:70px 0;
+	background:url(images/logotipe.png) top center no-repeat;
+	text-align:center;
+	font-size:2rem;
+	line-height:2.2rem;
+	font-weight:800;
+	}
+	aside .logotipe a {display:block;padding:70px 0 0 0;color:#2393a4;}
+
+nav {border-top:1px dotted #b4b4b4;}
+nav li {
+	padding:0 0 0 35px;
+	border-bottom:1px dotted #b4b4b4;
+	font-size:1.4rem;
+	line-height:5rem;
+	font-weight:bold;
+	-webkit-transition:all ease 500ms;
+	-moz-transition:all ease 500ms;
+	-o-transition:all ease 500ms; 
+	-ms-transition:all ease 500ms; 
+	transition:all ease 500ms;
+	}
+	nav li a {
+		display:block;
+		color:#313131;
+		-webkit-transition:all ease 500ms;
+		-moz-transition:all ease 500ms;
+		-o-transition:all ease 500ms; 
+		-ms-transition:all ease 500ms; 
+		transition:all ease 500ms;
+		}
+	nav li:hover a {color:#fff;}
+	nav li:nth-child(1) {box-shadow:inset -5px 0 0 0 #14a9be;}
+		nav li:hover:nth-child(1) {box-shadow:inset -250px 0 0 0 #14a9be;}
+	nav li:nth-child(2) {box-shadow:inset -5px 0 0 0 #ee3435;}
+		nav li:hover:nth-child(2) {box-shadow:inset -250px 0 0 0 #ee3435;}
+	nav li:nth-child(3) {box-shadow:inset -5px 0 0 0 #ffc000;}
+		nav li:hover:nth-child(3) {box-shadow:inset -250px 0 0 0 #ffc000;}
+	nav li:nth-child(4) {box-shadow:inset -5px 0 0 0 #d25ea4;}
+		nav li:hover:nth-child(4) {box-shadow:inset -250px 0 0 0 #d25ea4;}
+	nav li:nth-child(5) {box-shadow:inset -5px 0 0 0 #3cb64a;}
+		nav li:hover:nth-child(5) {box-shadow:inset -250px 0 0 0 #3cb64a;}
+nav li:nth-child(1) a {padding:0 0 0 35px;background:url(images/about.png) center left no-repeat;}
+	nav li:nth-child(1):hover a {background:url(images/about-hover.png) center left no-repeat;}
+nav li:nth-child(2) a {padding:0 0 0 35px;background:url(images/services.png) center left no-repeat;}
+	nav li:nth-child(2):hover a {background:url(images/services-hover.png) center left no-repeat;}
+nav li:nth-child(3) a {padding:0 0 0 35px;background:url(images/price.png) center left no-repeat;}
+	nav li:nth-child(3):hover a {background:url(images/price-hover.png) center left no-repeat;}
+nav li:nth-child(4) a {padding:0 0 0 35px;background:url(images/articles.png) center left no-repeat;}
+	nav li:nth-child(4):hover a {background:url(images/articles-hover.png) center left no-repeat;}
+nav li:nth-child(5) a {padding:0 0 0 35px;background:url(images/contacts.png) center left no-repeat;}
+	nav li:nth-child(5):hover a {background:url(images/contacts-hover.png) center left no-repeat;}
+aside .contacts-bottom {
+	position:absolute;
+	bottom:50px;
+	width:250px;
+	text-align:center;
+	font-size:1.8rem;
+	font-weight:800;
+	color:#3cb64a;
+	}
+	aside .contacts-bottom sup {font-size:1rem;}
+
+article {
+	margin:20px 30px 0 300px;
+	overflow:hidden;
+	min-width:650px;
+	max-width:1000px;
+	font-size:1.4rem;
+	line-height:2rem;
+	}
+	article a {color:#fff;text-decoration:underline;}
+		article a:hover {color:#fff;text-decoration:none;}
+	article .banner {
+		width:100%;
+		height:350px;
+		background:url(images/banner.jpg) top left no-repeat;
+		overflow:hidden;
+		text-align:right;
+		font-size:2.4rem;
+		line-height:2.4rem;
+		font-style:italic;
+		}
+		article .banner p:nth-child(1) {
+			margin:130px 30px 40px 0;
+			font-size:3.6rem;
+			line-height:4rem;
+			font-style:normal;
+			font-weight:800;
+			}
+		article .banner p:nth-child(2) {
+			float:right;
+			margin:0 30px 0 0;
+			width:50%;
+			}
+	article p {margin:0 0 30px;line-height:1.8rem;}
+	article h1 {
+		margin:30px 0 50px 0;
+		text-align:center;
+		font-size:2.6rem;
+		line-height:2.4rem;
+		font-weight:800;
+		}
+	article h2 {
+		margin:30px 0;
+		font-style:italic;
+		font-size:1.8rem;
+		line-height:2.2rem;
+		}
+	article h3 {
+		margin:0 0 30px 0;
+		font-size:1.6rem;
+		line-height:2.2rem;
+		text-transform:uppercase;
+		font-weight:800;
+		}
+article ul {margin:0 0 30px 50px;}
+	article ul li {
+		margin:0 0 20px 22px;
+		padding:0 0 0 10px;
+		list-style:circle;
+		font-size:1.4rem;
+		line-height:2rem;
+		}
+.juimage, .jugallery {margin:0 10px 5px 0;}
+footer {
+	margin:110px 0 50px 0;
+	padding:20px 0 0 0;
+	border-top:3px double #78c0cb;
+	text-align:center;
+	color:#78c0cb;
+	}
+	footer .title {
+		margin:36px 0 15px 0;
+		font-size:1.6rem;
+		font-weight:800;
+		}
+	footer p {margin:0 0 40px;font-size:1.2rem;line-height:1.6rem;}
+	footer .komissarov {font-size:1.2rem;}
+	footer .komissarov a {color:#9fd6de;text-decoration:none;}
+	footer .komissarov span {font-weight:800;border-bottom:1px dotted #9fd6de;color:#9fd6de;}
+		footer .komissarov span:hover {border-bottom:1px dotted #bae6ed;color:#bae6ed;}
+
+article table {width:100%;}
+article table tr:nth-child(2n) {background:#3cb1c3;}
+article table tr td {padding:5px 10px;}

@@ -1,25 +1,26 @@
 <?php
 defined('_JEXEC') or die;
-require_once __DIR__ .'/renderer/head.php';
 
-$doc = JFactory::getDocument();
+//$doc = JFactory::getDocument();
 //
-$doc->addStyleSheet('templates/' . $this->template . '/css/bootstrap.min.css');
+//$doc->addStyleSheet('templates/' . $this->template . '/css/bootstrap.min.css');
 ////$doc->addStyleSheet($this->baseurl . '/media/jui/css/bootstrap-responsive.css');
-$doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
+//$doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
 
-$doc->addScript('templates/' . $this->template . '/js/main.js')
+
 
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="<?= $this->baseurl ?>/templates/sh/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="<?= $this->baseurl ?>/templates/sh/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?= $this->baseurl ?>/templates/sh/css/style.css" rel="stylesheet" type="text/css" />
 
 
 
-
-    <jdoc:include type="head" name="head" />
+    <jdoc:include type="head" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -85,7 +86,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js')
     </div><!--/.container-->
 
 
-    <jdoc:include type="head" name="foot" />
+
     <script src="<?= $this->baseurl ?>/media/jui/js/jquery.min.js" type="text/javascript"></script>
     <script src="<?= $this->baseurl ?>/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
     <script src="<?= $this->baseurl ?>/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
@@ -93,8 +94,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js')
 
 <!--    <script src="--><?//= $this->baseurl ?><!--/templates/sh/js/jquery-3.1.1.min.js" type="text/javascript"></script>-->
     <script src="<?= $this->baseurl ?>/templates/sh/js/bootstrap.min.js" type="text/javascript"></script>
-
-<!--    <script src="--><?//= $this->baseurl ?><!--/templates/sh/js/main.js" type="text/javascript"></script>-->
+    <script src="<?= $this->baseurl ?>/templates/sh/js/main.js" type="text/javascript"></script>
 
 </body>
 </html>
