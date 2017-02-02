@@ -3,22 +3,18 @@ defined('_JEXEC') or die;
 require_once __DIR__ .'/renderer/head.php';
 
 $doc = JFactory::getDocument();
-//
 $doc->addStyleSheet('templates/' . $this->template . '/css/bootstrap.min.css');
-////$doc->addStyleSheet($this->baseurl . '/media/jui/css/bootstrap-responsive.css');
+$doc->addStyleSheet('templates/' . $this->template . '/css/magnific.css');
+$doc->addStyleSheet('templates/' . $this->template . '/css/fonts.css');
 $doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
 
-$doc->addScript('templates/' . $this->template . '/js/main.js')
+//$doc->addScript('templates/' . $this->template . '/js/main.js')
 
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-
-
-
-
     <jdoc:include type="head" name="head" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -93,8 +89,8 @@ $doc->addScript('templates/' . $this->template . '/js/main.js')
 
 <!--    <script src="--><?//= $this->baseurl ?><!--/templates/sh/js/jquery-3.1.1.min.js" type="text/javascript"></script>-->
     <script src="<?= $this->baseurl ?>/templates/sh/js/bootstrap.min.js" type="text/javascript"></script>
-
-<!--    <script src="--><?//= $this->baseurl ?><!--/templates/sh/js/main.js" type="text/javascript"></script>-->
+    <script src="<?= $this->baseurl ?>/templates/sh/js/magnific.js" type="text/javascript"></script>
+    <script src="<?= $this->baseurl ?>/templates/sh/js/main.js" type="text/javascript"></script>
 
 </body>
 </html>

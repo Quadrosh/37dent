@@ -15,6 +15,7 @@
 		<folder>css</folder>
 		<folder>img</folder>
 		<folder>js</folder>
+		<folder>renderer</folder>
 	</files>
 	<positions>
         <position>sidebar_top</position>

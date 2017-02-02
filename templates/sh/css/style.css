@@ -1,52 +1,9 @@
-/*.main_container {*/
-	/*width:940px;*/
-	/*margin-left:auto;*/
-	/*margin-right:auto;*/
-/*}*/
-/*.mid_container {*/
-	/*margin:20px 0px;*/
-/*}*/
-/*.main_content_area {*/
-	/*float:left;*/
-	/*width:700px;*/
-/*}*/
-/*.right_sidebar {*/
-	/*float:right;*/
-	/*width: 220px;*/
-/*}*/
-/*.main_content_area,*/
-/*.right_sidebar,*/
-/*.footer,*/
-/*.header {*/
-	/*border:1px solid #bbb;*/
-/*}*/
-/*.mostread,*/
-/*.weblinks,*/
-/*.category-module,*/
-/*.syndicate-module,*/
-/*ul.nav.menu,*/
-/*#login-form {*/
-	/*-moz-border-radius: 5px;*/
-	/*-webkit-border-radius: 5px;*/
-	/*-khtml-border-radius: 5px;*/
-	/*border-radius: 5px;*/
-	/*background:#eee;*/
-	/*border:1px solid #ccc;*/
-	/*padding:5px;*/
-	/*margin:0px 0px 10px 0px;*/
-/*}*/
-/*.mostread,*/
-/*.weblinks,*/
-/*.category-module {*/
-    /*padding:0px 0px 0px 20px;*/
-/*}*/
-/*.syndicate-module {*/
-    /*display:block;*/
-/*}*/
+
 
 body {
     background-color: #2393a4;
     color: #fff;
+    font-size:16px;
 }
 .clearfix {
     clear:both;
@@ -129,7 +86,9 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-
+.page-header h1 {
+    font-family:"HelveticaBold",sans-serif;
+}
 
 
 
@@ -190,6 +149,7 @@ body {
     font-size:12px;
 }
 
+
 /*
  * Style tweaks
  * --------------------------------------------------
@@ -204,8 +164,143 @@ footer {
     padding: 30px 20px 10px;
 }
 
+.about_thumb {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.page-header h1{
+    text-align: center;
+    font-size:4.6rem;
+    font-family:HelveticaLight, sans-serif;
+    margin: 30px 0 50px 0;
+}
+.item-pageinfo .page-header h1{
+    text-align: center;
+    font-family:HelveticaLight, sans-serif;
+    font-size:4.6rem;
+    margin: 30px 0 50px 0;
+}
+.page-header {
+    border-bottom:none;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt50{
+    margin-top: 50px;
+}
+.mt100{
+    margin-top: 100px;
+}
+.mt120{
+    margin-top: 120px;
+}
+.mt150{
+    margin-top: 150px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.mb50{
+    margin-bottom: 50px;
+}
+.mb100{
+    margin-bottom: 100px;
+}
+.mb120{
+    margin-bottom: 120px;
+}
+.mb150{
+    margin-bottom: 150px;
+}
+
+
+.panel-heading {
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    width: 100%;
+    box-shadow: inset 0 0 0 0 #ffc000;
+    -webkit-transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.panel-heading:hover {
+    box-shadow: inset 0 60px 0 0 #ffc000;
+}
+
+.panel .btn {
+    padding: 11px 20px 8px;
+    margin: 10px 0 0;
+    background: #005b69;
+    color: #fff;
+    border:none;
+    text-align: left;
+    display: block;
+
+}
+.panel {
+    background-color: transparent;
+    border:none;
+}
+.panel td {
+    padding: 7px 7px 3px;
+    /*border: 1px #14a9be solid;*/
+    /*border: 1px rgba(255,255,255,0.1) solid;*/
+    border: 1px rgba(0,91,105,0.3) solid;
+
+}
+.panel th {
+    padding: 7px 7px 3px;
+    border: none;
+    text-align: center;
+    font-weight:lighter;
+}
+
+
+/*.infopage a:focus, .infopage a:hover {*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+/*}*/
+/*.infopage a:active, .infopage a:hover {*/
+    /*outline: 0;*/
+/*}*/
+.item-pageinfo a {
+    color: #fff;
+    text-decoration: none;
+}
+.item-pageinfo .thumb {
+    width: 60%;
+}
+.btn-default {
+    text-transform: uppercase;
+    background-color: #005b69;
+    border: none;
+    padding: 7px 10px 3px;
+    font-size:12px;
+}
+.btn-default:hover{
+    background-color: #ffc000;
+    color: #ffffff;
+    -webkit-transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    transition: all ease 500ms;
+    -webkit-box-shadow: 5px 0px 7px 0px rgba(50,50,50,0.4);
+    -moz-box-shadow: 5px 0px 7px 0px rgba(50,50,50,0.4);
+    box-shadow: 5px 0px 7px 0px rgba(50,50,50,0.4);
+}
+
 /*
- * Off Canvas
+ * media
  * --------------------------------------------------
  */
 @media screen and (max-width: 767px) {
@@ -243,6 +338,9 @@ footer {
         -moz-box-shadow: 5px 0px 10px 0px rgba(50,50,50,0.4);
         box-shadow: 5px 0px 10px 0px rgba(50,50,50,0.4);
     }
+    .page-header h1{
+        font-size:2.6rem;
+    }
 }
 @media screen and (max-width: 500px) {
 
@@ -265,5 +363,9 @@ footer {
         -moz-box-shadow: 5px 0px 10px 0px rgba(50,50,50,0.4);
         box-shadow: 5px 0px 10px 0px rgba(50,50,50,0.4);
     }
+    .page-header h1{
+        font-size:2.0rem;
+    }
+
 }
 
