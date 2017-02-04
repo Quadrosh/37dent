@@ -41,9 +41,9 @@ $doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
                 <jdoc:include type="modules" name="sidebar_top" style="well" />
                 <jdoc:include type="modules" name="sidebar_middle" style="well" />
                 <jdoc:include type="modules" name="sidebar_bottom" style="well" />
-                <div id="sidebar_phone">
-                    <p><span>(4932)</span> 903-800, 902-211</p>
-                </div>
+<!--                <div id="sidebar_phone">-->
+<!--                    <p><span>(4932)</span> 903-800, 902-211</p>-->
+<!--                </div>-->
             </div>
 
             <!-- main area -->

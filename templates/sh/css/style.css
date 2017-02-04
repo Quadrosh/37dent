@@ -139,14 +139,20 @@ body {
 .nav li:nth-child(5):hover a {background:url(images/contacts-hover.png) center left no-repeat;}
 
 
-#sidebar_phone p {
+#sidebar_phone p,
+.custom_phone p {
     color: #3cb64a;
     margin-top: 18px;
     text-align: center;
     font-size:18px;
+    font-family:HelveticaBold, sans-serif;
 }
-#sidebar_phone p span {
+#sidebar_phone p span,
+.custom_phone p span {
     font-size:12px;
+    top:-2px;
+    display: inline-block;
+    position: relative;
 }
 
 

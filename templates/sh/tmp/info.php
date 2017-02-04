@@ -38,7 +38,7 @@
             <a class="btn btn-default" href="images/25.12.2015.rtf" target="_blank">Загрузить</a>
         </div>
 </div>
-<div>
+<div class="mb100">
     <div class="infohead text-center mt50 mb50">
         <h3>Список контролирующих организаций:</h3>
     </div>
