@@ -154,7 +154,30 @@ body {
     display: inline-block;
     position: relative;
 }
-
+.top_name {
+    margin: 100px 30px 40px 0px;
+    padding: 0px; border: 0px;
+    font-weight: 800;
+    font-size: 3.6rem;
+    line-height: 4rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    vertical-align: baseline;
+    color: #ffffff;
+    text-align: right;
+}
+.top_message{
+    margin: 0px 30px 0px 0px;
+    padding: 0px; border: 0px;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.8rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    vertical-align: baseline;
+    float: right;
+    width: 429px;
+    color: #ffffff;
+    text-align: right;
+}
 
 /*
  * Style tweaks
@@ -347,6 +370,12 @@ footer {
     .page-header h1{
         font-size:2.6rem;
     }
+    .top_name {
+        font-size:2.8rem;
+    }
+    .top_message {
+        font-size:20px;
+    }
 }
 @media screen and (max-width: 500px) {
 
@@ -372,6 +401,34 @@ footer {
     .page-header h1{
         font-size:2.0rem;
     }
+    .top_name {
+        font-size:2.6rem;
+    }
+    .top_message {
+        font-size:24px;
+        width: 90%;
+        margin-left:30px;
+    }
 
 }
-
+@media screen and (max-height: 700px) {
+    .brand_logo {
+        margin:6vh auto 6vh;
+    }
+    .nav li {
+        line-height: 5rem;
+    }
+}
+@media screen and (max-height: 500px) {
+    .brand_logo {
+        margin: 1vh auto 1vh;
+    }
+    .brand_logo a {
+        color: #2393a4;
+        font-size: 18px;
+        line-height: 0.8;
+    }
+    .nav li {
+        line-height: 3rem;
+    }
+}
