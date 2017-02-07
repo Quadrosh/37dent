@@ -118,15 +118,15 @@ body {
 }
 .nav li:hover a {color:#fff;}
 .nav li:nth-child(1) {box-shadow:inset -5px 0 0 0 #14a9be; border-top:1px dotted #b4b4b4;}
-.nav li:hover:nth-child(1) {box-shadow:inset -400px 0 0 0 #14a9be;}
+.nav li:hover:nth-child(1) {box-shadow:inset -700px 0 0 0 #14a9be;}
 .nav li:nth-child(2) {box-shadow:inset -5px 0 0 0 #ee3435;}
-.nav li:hover:nth-child(2) {box-shadow:inset -400px 0 0 0 #ee3435;}
+.nav li:hover:nth-child(2) {box-shadow:inset -700px 0 0 0 #ee3435;}
 .nav li:nth-child(3) {box-shadow:inset -5px 0 0 0 #ffc000;}
-.nav li:hover:nth-child(3) {box-shadow:inset -400px 0 0 0 #ffc000;}
+.nav li:hover:nth-child(3) {box-shadow:inset -700px 0 0 0 #ffc000;}
 .nav li:nth-child(4) {box-shadow:inset -5px 0 0 0 #d25ea4;}
-.nav li:hover:nth-child(4) {box-shadow:inset -400px 0 0 0 #d25ea4;}
+.nav li:hover:nth-child(4) {box-shadow:inset -700px 0 0 0 #d25ea4;}
 .nav li:nth-child(5) {box-shadow:inset -5px 0 0 0 #3cb64a;}
-.nav li:hover:nth-child(5) {box-shadow:inset -400px 0 0 0 #3cb64a;}
+.nav li:hover:nth-child(5) {box-shadow:inset -700px 0 0 0 #3cb64a;}
 .nav li:nth-child(1) a {padding:0 0 0 35px;background:url(images/about.png) center left no-repeat;}
 .nav li:nth-child(1):hover a {background:url(images/about-hover.png) center left no-repeat;}
 .nav li:nth-child(2) a {padding:0 0 0 35px;background:url(images/services.png) center left no-repeat;}
@@ -411,7 +411,7 @@ footer {
     }
 
 }
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 800px) {
     .brand_logo {
         margin:6vh auto 6vh;
     }
@@ -419,16 +419,44 @@ footer {
         line-height: 5rem;
     }
 }
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 750px) {
+    .brand_logo {
+        margin:5vh auto 5vh;
+    }
+    .nav li {
+        line-height: 4rem;
+    }
+}
+@media screen and (max-height: 650px) {
     .brand_logo {
         margin: 1vh auto 1vh;
     }
     .brand_logo a {
-        color: #2393a4;
         font-size: 18px;
         line-height: 0.8;
     }
     .nav li {
         line-height: 3rem;
+    }
+    .custom_phone p {
+        margin-top: 18px;
+        margin-bottom:10px;
+    }
+    .brand_logo img {
+        display: block;
+    }
+}
+@media screen and (max-height: 456px) {
+
+
+    .nav li {
+        line-height: 3rem;
+    }
+    .custom_phone p {
+        margin-top: 8px;
+        margin-bottom:3px;
+    }
+    .brand_logo img {
+        display: none;
     }
 }

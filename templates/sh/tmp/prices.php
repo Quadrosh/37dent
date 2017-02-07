@@ -1,7 +1,7 @@
 <div class="panel-group mb100">
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse1" >Терапия</a>
-        <div id="collapse1" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_therapy" >Терапия</a>
+        <div id="price_therapy" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
@@ -277,8 +277,8 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse2" >Детский прием</a>
-        <div id="collapse2" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_childrens" >Детский прием</a>
+        <div id="price_childrens" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
@@ -383,8 +383,8 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse3" >Гигиена</a>
-        <div id="collapse3" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_hygiene" >Гигиена</a>
+        <div id="price_hygiene" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
@@ -447,8 +447,8 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse4" >Хирургия</a>
-        <div id="collapse4" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_surgery" >Хирургия</a>
+        <div id="price_surgery" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
@@ -524,8 +524,8 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse4" >Ортопедия</a>
-        <div id="collapse4" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_orthopedics" >Ортопедия</a>
+        <div id="price_orthopedics" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
@@ -681,8 +681,8 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse4" >Снимки и прочее</a>
-        <div id="collapse4" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_other" >Снимки и прочее</a>
+        <div id="price_other" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
@@ -713,8 +713,8 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <a class="panel-heading btn" data-toggle="collapse" href="#collapse4" >Профилактика</a>
-        <div id="collapse4" class="panel-collapse collapse">
+        <a class="panel-heading btn" data-toggle="collapse" href="#price_prevention" >Профилактика</a>
+        <div id="price_prevention" class="panel-collapse collapse">
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>

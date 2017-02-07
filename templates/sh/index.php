@@ -17,6 +17,7 @@ $doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
 <head>
     <jdoc:include type="head" name="head" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://vk.com/js/api/openapi.js?139" type="text/javascript"></script>
 </head>
 <body>
 
@@ -41,9 +42,21 @@ $doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
                 <jdoc:include type="modules" name="sidebar_top" style="well" />
                 <jdoc:include type="modules" name="sidebar_middle" style="well" />
                 <jdoc:include type="modules" name="sidebar_bottom" style="well" />
-<!--                <div id="sidebar_phone">-->
-<!--                    <p><span>(4932)</span> 903-800, 902-211</p>-->
-<!--                </div>-->
+
+                <div id="vk_groups"></div>
+                <script type="text/javascript">
+                    var sidebar = document.getElementById('sidebar');
+                    var sidebarWidth = sidebar.clientWidth;
+                    var sidebarHeight = sidebar.clientHeight;
+                    var vkWidgetMode; // участники = 3, только название = 1
+                    if (sidebarHeight<530) {
+                        vkWidgetMode = 1;
+                    }
+                    else{
+                        vkWidgetMode = 3;
+                    }
+                    VK.Widgets.Group("vk_groups", {mode: vkWidgetMode, width:sidebarWidth, height: "150",color3: '005B69',}, 124480410);
+                </script>
             </div>
 
             <!-- main area -->
@@ -87,7 +100,6 @@ $doc->addStyleSheet('templates/' . $this->template . '/css/style.css');
     <script src="<?= $this->baseurl ?>/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
     <script src="<?= $this->baseurl ?>/media/system/js/caption.js" type="text/javascript"></script>
 
-<!--    <script src="--><?//= $this->baseurl ?><!--/templates/sh/js/jquery-3.1.1.min.js" type="text/javascript"></script>-->
     <script src="<?= $this->baseurl ?>/templates/sh/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="<?= $this->baseurl ?>/templates/sh/js/magnific.js" type="text/javascript"></script>
     <script src="<?= $this->baseurl ?>/templates/sh/js/main.js" type="text/javascript"></script>
