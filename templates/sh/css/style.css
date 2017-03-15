@@ -328,6 +328,20 @@ footer {
     box-shadow: 5px 0px 7px 0px rgba(50,50,50,0.4);
 }
 
+.prices_top_info{
+    border: 3px white solid;
+    padding: 20px;
+    background-color: white;
+    /*color: #3cb64a;*/
+    color: #005b69;
+    font-weight:bold;
+}
+
+
+
+
+
+
 /*
  * media
  * --------------------------------------------------
