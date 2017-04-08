@@ -610,12 +610,20 @@
             <table width="100%" border="0" cellspacing="2" cellpadding="0">
                 <tr>
                     <th>Услуга</th>
-<!--                    <th width="100" align="center">Цена руб.</th>-->
+                    <th width="100" align="center">Цена руб.</th>
                 </tr>
 
                 <tr>
-                    <td>Информация появится позже</td>
-<!--                    <td align="center">150</td>-->
+                    <td>Имплант Alpha Bio, в том числе снятие слепков, без коронки</td>
+                    <td align="center">23 700</td>
+                </tr>
+                <tr>
+                    <td>Формирователь десны</td>
+                    <td align="center">3 000</td>
+                </tr>
+                <tr>
+                    <td>Полная стоимость Имплант Alpha Bio весь комплект/стандарт без скидки — 44 000 руб.</td>
+                    <td align="center"></td>
                 </tr>
 
             </table>

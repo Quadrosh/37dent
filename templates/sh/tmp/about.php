@@ -26,6 +26,9 @@
         <a class="image-popup-no-margins" href="images/about/DSC_4409.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4409.jpg" /></a>
     </div>
     <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_06.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_06.jpg" /></a>
+    </div>
+    <div class="col-sm-4 col-xs-6">
         <a class="image-popup-no-margins" href="images/about/DSC_4415.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4415.jpg" /></a>
     </div>
     <div class="col-sm-4 col-xs-6">
@@ -36,7 +39,7 @@
         <a class="image-popup-no-margins" href="images/about/DSC_4437.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4437.jpg"  /></a>
     </div>
     <div class="col-sm-4 col-xs-6">
-        <a class="image-popup-no-margins" href="images/about/DSC_4440.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4440.jpg"  /></a>
+        <a class="image-popup-no-margins" href="images/about/about2_07.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_07.jpg"  /></a>
     </div>
     <div class="col-sm-4 col-xs-6">
         <a class="image-popup-no-margins" href="images/about/DSC_4442.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4442.jpg" /></a>
@@ -49,7 +52,31 @@
         <a class="image-popup-no-margins" href="images/about/DSC_4464.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4464.jpg"  /></a>
     </div>
     <div class="col-sm-4 col-xs-6">
-        <a class="image-popup-no-margins" href="images/about/DSC_4469.jpeg"> <img class="about_thumb" src="images/about/thumbs/th_DSC_4469.jpg" /></a>
+        <a class="image-popup-no-margins" href="images/about/about2_01.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_01.jpg" /></a>
+    </div>
+
+    <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_02.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_02.jpg" /></a>
+    </div>
+
+    <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_08.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_08.jpg" /></a>
+    </div>
+
+    <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_09.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_09.jpg" /></a>
+    </div>
+
+    <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_10.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_10.jpg" /></a>
+    </div>
+
+    <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_15.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_15.jpg" /></a>
+    </div>
+
+    <div class="col-sm-4 col-xs-6">
+        <a class="image-popup-no-margins" href="images/about/about2_17.jpg"> <img class="about_thumb" src="images/about/thumbs/th_about2_17.jpg" /></a>
     </div>
 
     <div class="col-sm-4 col-xs-6">
