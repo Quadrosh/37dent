@@ -84,3 +84,23 @@
     </div>
 
 </div>
+<div class="panel panel-default text-center mb100">
+    <a class="panel-heading btn" data-toggle="collapse" href="#hr" >Вакансии</a>
+    <div id="hr" class="panel-collapse collapse">
+        <table width="100%" border="0" cellspacing="2" cellpadding="0">
+            <tr>
+                <td align="center">Терапевт</td>
+            </tr>
+
+            <tr>
+                <td align="center">Хирург</td>
+            </tr>
+            <tr>
+                <td align="center">Медицинская сестра</td>
+            </tr>
+            <tr>
+                <td align="center">Ортодонт</td>
+            </tr>
+        </table>
+    </div>
+</div>

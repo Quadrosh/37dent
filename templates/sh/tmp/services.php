@@ -9,6 +9,9 @@
             <td colspan="2" align="center"><strong>Ортопедия</strong></td>
         </tr>
         <tr>
+            <td colspan="2" align="center"><strong>Имплантология</strong></td>
+        </tr>
+        <tr>
             <td colspan="2" align="center"><strong>Хирургия</strong></td>
         </tr>
         <tr>
